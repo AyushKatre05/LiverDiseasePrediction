@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # Load the dataset
-data = pd.read_csv("C:/Users/ayush/OneDrive/Desktop/Liver detection/liver.csv")
+data = pd.read_csv("liver.csv")
 
 # Data preprocessing
 # Handle missing values
